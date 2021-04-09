@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+
+body{
+    max-width: 60%;
+    margin: auto;
+}
+
+header{
+    background-color: salmon;
+    display: flex;
+    height: 10vh;
+    border: solid black 2px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 14pt;
+    padding-right: 2rem;
+}
+
+.dashed-border{
+    border: dashed black 5px;
+    margin: 10px;
+    height: 35vh;
+    font-size: 14pt;
+    padding: 30px 10px;
+}
+
+h3{
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+#HTML5{
+    height: 15vh;
+    float: left;
+    padding: 20px;
+}
+
+#CSS3{
+    height: 15vh;
+    float: right;
+    padding: 20px;
+}
